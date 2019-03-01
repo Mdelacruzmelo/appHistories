@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-feb-2019, 19:49:14
+    Author     : Mario Delacruzmelo
+*/
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+#container{
+	height: 100vh;
+}
+.cursor-pointer{
+	cursor: pointer;
+}
+#dashboardSideBar{
+	border-radius: 2rem;
+}
+#optionBackground{
+	left: 1.5rem;
+	top: 0rem;
+	z-index: 0;
+	border-radius: 2rem;
+	transition: .2s ease;
+}
+#border1{
+	right: 0;
+	top: 2.5rem;
+	height: 2rem;
+	width: 2rem;
+	overflow: hidden;
+	transition: .2s ease;
+}
+#circleBorder1{
+	height: 100%;
+	width: 100%;
+	border-top-right-radius: 1rem;
+}
+#border2{
+	right: 0;
+	top: -2rem;
+	height: 2rem;
+	width: 2rem;
+	z-index: 2;
+	transition: .2s ease;
+}
+#circleBorder2{
+	height: 100%;
+	width: 100%;
+	border-bottom-right-radius: 1rem;
+}
+#border3{
+	right: 0;
+	bottom: 0;
+	height: 2rem;
+	width: 2rem;
+	z-index: 2;
+}
+#circleBorder3{
+	height: 100%;
+	width: 100%;
+	border-bottom-right-radius: 1rem;
+	transition: .3s ease;
+}
+#circleChapter1 circle{
+	cx: 45;
+	cy: 20;
+	r: 7;
+	fill: green;
+	transition: .2s ease;
+}
+#circleChapter2 circle{
+	cx: 45;
+	cy: 20;
+	r: 4;
+	fill: green;
+	transition: .2s ease;
+}
+#circleChapter3 circle{
+	cx: 45;
+	cy: 20;
+	r: 4;
+	fill: green;
+	transition: .2s ease;
+}
+#circleChapter4 circle{
+	cx: 45;
+	cy: 20;
+	r: 4;
+	fill: green;
+	transition: .2s ease;
+}
+#circleChapter5 circle{
+	cx: 45;
+	cy: 20;
+	r: 4;
+	fill: green;
+	transition: .2s ease;
+}
+#circleChapter6 circle{
+	cx: 45;
+	cy: 20;
+	r: 4;
+	fill: green;
+	transition: .2s ease;
+}
+#circleChapter7 circle{
+	cx: 45;
+	cy: 20;
+	r: 4;
+	fill: green;
+	transition: .2s ease;
+}
+#circleChapter8 circle{
+	cx: 45;
+	cy: 20;
+	r: 4;
+	fill: green;
+	transition: .2s ease;
+}
+#circleChapter9 circle{
+	cx: 45;
+	cy: 20;
+	r: 4;
+	fill: green;
+	transition: .2s ease;
+}
+#circleChapter10 circle{
+	cx: 45;
+	cy: 20;
+	r: 4;
+	fill: green;
+	transition: .2s ease;
+}

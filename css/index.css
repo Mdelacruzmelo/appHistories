@@ -10,6 +10,9 @@ and open the template in the editor.
 body{
 	font-family: 'Open Sans', sans-serif;
 }
+#goButtonRegister{
+	display: none;
+}
 #container{
 	height: 100vh;
 	text-align: left

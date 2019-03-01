@@ -2,9 +2,10 @@ $(document).ready(function () {
 
 
 });
+
 $('#loginButton').hide();
 $('#spanRegister').hide();
-$('#loginContainer').css('background','green');
+$('#loginContainer').css('background', 'green');
 
 $('#registerButton').click(function () {
 	$('#circleRegister circle').css({
@@ -15,6 +16,8 @@ $('#registerButton').click(function () {
 	});
 	$('#registerButton').hide();
 	$('#loginButton').show();
+	$('#goButtonLogin').hide();
+	$('#goButtonRegister').show();
 	setTimeout(function () {
 		$('#loginContainer').css('background', 'red');
 		$('#circleRegister circle').css({
@@ -25,6 +28,7 @@ $('#registerButton').click(function () {
 	$('#spanRegister').show();
 });
 
+
 $('#loginButton').click(function () {
 	$('#circleLogin circle').css({
 		'r': '400',
@@ -34,6 +38,8 @@ $('#loginButton').click(function () {
 	});
 	$('#loginButton').hide();
 	$('#registerButton').show();
+	$('#goButtonLogin').show();
+	$('#goButtonRegister').hide();
 	setTimeout(function () {
 		$('#loginContainer').css('background', 'green');
 		$('#circleLogin circle').css({

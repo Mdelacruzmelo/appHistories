@@ -80,8 +80,11 @@
 					<button id="loginButton" class="circlebtn circlebtn2 mt-2">
 						<i class="fas fa-user"></i>
 					</button>
-					<button id="goButton" class="circlebtn mt-2">
+					<button id="goButtonLogin" class="circlebtn mt-2">
 						<i class="fas fa-sign-in-alt"></i>
+					</button>
+					<button id="goButtonRegister" class="circlebtn mt-2">
+						<i class="fas fa-envelope"></i>
 					</button>
 				</div>
 
